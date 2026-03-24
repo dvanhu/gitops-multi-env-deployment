@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: nginx-ingress
 spec:
+  ingressClassName: nginx
   rules:
   - host: nginx.local
     http:
@@ -11,6 +12,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: dev-nginx-service
+            name: nginx-service
             port:
               number: 80
