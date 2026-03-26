@@ -2,12 +2,12 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: nginx-ingress
-  annotations:                 # 👈 ADD HERE
+  annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
-  rules:
-  - host: nginx.localtest.me   # 👈 ALSO FIX HOST
+  rules:                    # ✅ FIXED INDENT
+  - host: nginx.localtest.me
     http:
       paths:
       - path: /

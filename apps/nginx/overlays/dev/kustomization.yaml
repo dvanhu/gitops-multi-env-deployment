@@ -1,4 +1,7 @@
 resources:
 - ../../base
 
-namePrefix: dev-
+namePrefix: dev-              # 🔥 ADD BACK
+
+patchesStrategicMerge:
+- patch.yaml

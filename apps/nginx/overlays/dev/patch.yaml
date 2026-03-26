@@ -4,4 +4,4 @@ metadata:
   name: nginx-ingress
 spec:
   rules:
-  - host: nginx-prod.localtest.me   
+  - host: nginx-dev.localtest.me
