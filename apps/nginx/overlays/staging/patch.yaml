@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: dvanhu/app:v2  
+        image: dvanhu/gitops-nginx:ed33303fa9ad888d2fe24f5258ed5c5d7831fc24 
