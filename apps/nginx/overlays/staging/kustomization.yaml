@@ -1,5 +1,7 @@
 resources:
-  - ../../base
+- ../../base
 
-patches:
-  - path: patch.yaml
+namePrefix: staging-
+
+patchesStrategicMerge:
+- patch.yaml
