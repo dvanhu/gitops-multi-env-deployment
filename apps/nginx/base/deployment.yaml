@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: dvanhu/gitops-nginx:48efb5f4f879ef27901c27401af98a63ca778007
+        image: dvanhu/gitops-nginx:1dc7e62c37ad00300f8f52fc364a8321be50f681
         ports:
         - containerPort: 80
