@@ -155,6 +155,3 @@ For production, it is recommended to require a manual sync approval in ArgoCD to
 - **Automated reconciliation** — ArgoCD continuously enforces cluster state
 - **Audit trail** — every deployment change is a traceable Git commit
 - **Progressive delivery** — promote changes from dev → staging → production safely
-
----
-
