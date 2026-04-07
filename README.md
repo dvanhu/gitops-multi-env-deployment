@@ -1,4 +1,12 @@
 # GitOps Multi-Environment Deployment
+![GitOps](https://img.shields.io/badge/GitOps-ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Orchestration](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Source of Truth](https://img.shields.io/badge/Source%20of%20Truth-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Config](https://img.shields.io/badge/Config-Kustomize-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Packaging](https://img.shields.io/badge/Packaging-Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Environment](https://img.shields.io/badge/Environment-Dev%20%7C%20Staging%20%7C%20Prod-4CAF50?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Sync](https://img.shields.io/badge/Sync-Automated-blueviolet?style=for-the-badge&logo=argo&logoColor=white)
+![Delivery](https://img.shields.io/badge/Delivery-Progressive-FF6A00?style=for-the-badge&logo=argo&logoColor=white)
 
 A **GitOps-based multi-environment deployment** project that manages application delivery across multiple environments (e.g., dev, staging, production) using Kubernetes and ArgoCD, with Git as the single source of truth for all environment configurations.
 
