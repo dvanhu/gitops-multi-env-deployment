@@ -423,4 +423,4 @@ kubectl apply -k apps/nginx/overlays/dev
 
 | Repository | Purpose |
 |---|---|
-| [`gitops-project`](https://github.com/your-org/gitops-project) | Application source code, Dockerfile, and GitHub Actions CI pipeline |
+| [`gitops-project`](https://github.com/dvanhu/gitops-project) | Application source code, Dockerfile, and GitHub Actions CI pipeline |
