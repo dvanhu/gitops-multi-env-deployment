@@ -13,7 +13,7 @@ This repository serves as the **GitOps configuration source of truth** for a mul
 
 ArgoCD continuously monitors this repository and reconciles the live cluster state with the declared configuration. No deployment is performed manually — all changes to cluster state are driven exclusively through commits to this repository.
 
-This repository forms the **CD layer** of a two-repository GitOps architecture. The upstream CI layer is maintained in [`gitops-project`](https://github.com/your-org/gitops-project), which builds Docker images and updates the image tag in this repository.
+This repository forms the **CD layer** of a two-repository GitOps architecture. The upstream CI layer is maintained in [`gitops-project`](https://github.com/dvanhu/gitops-project), which builds Docker images and updates the image tag in this repository.
 
 ---
 
